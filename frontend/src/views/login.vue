@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <div class="flex items-center justify-between">
-          <p class="card-title">Ninja提醒您</p>
+          <p class="card-title">🔔注意事项</p>
         </div>
       </div>
       <div class="card-body text-base leading-6">
@@ -48,7 +48,7 @@
         </div>
         <div class="card-body text-base leading-6">
           <b>wskey有效期长达一年，请联系管理员确认使用（删不掉，慎用）</b>
-          <p>用户须手动提取pin和wskey，格式如："pt_pin=xxxxxx;wskey=xxxxxxxxxx;"。</p>
+          <p>用户须手动提取pin和wskey，拼接格式如：pt_pin=xxxxxx;wskey=xxxxxxxxxx;</p>
           <p class="card-subtitle">——IOS用户手机抓包APP&emsp;<a style="" href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" id="downiOSApp">点击跳转安装</a> </p>
           <p class="card-subtitle">——在api.m.jd.com域名下找POST请求大概率能找到wskey。</p>
           <p class="card-subtitle">wskey在录入后立马上线，系统会在指定时间检查wskey，有效则自动转换出cookie登录</p>
@@ -74,7 +74,7 @@
           <p>PC用户建议使用开源工具<a style="" href="https://github.com/Waikkii/JD_Get_Cookie" target="_blank" id="waikiki">JD_Get_Cookie</a>获取cookie并在下方填写。</p>
           <p>手机用户可以使用Alook浏览器登录<a style="" href="https://m.jd.com/" target="_blank" id="jd">JD官网</a>，并在菜单-工具箱-开发者工具-Cookies中获取（Android和iPhone通用）。</p>
           <p>另外也可以使用抓包工具（iPhone：Stream，Android：HttpCanary）抓取京东app的ck，要注意pt_key和pt_pin字段是以app_open开头的。</p>
-          <p>cookie直接填入输入框即可，Ninja会自动正则提取pt_key和pt_pin。</p>
+          <p>cookie直接填入输入框即可，Ninja会自动正则提取pt_key和pt_pin。若不行，请按此格式拼接提交：pt_key=xxxxxxxxxx;pt_pin=xxxxxx;</p>
         </div>
         <span class="card-subtitle"> 请在下方输入您的 cookie 登录。 </span>
       </div>
