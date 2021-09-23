@@ -98,6 +98,7 @@ Ninja 仅支持 qinglong 2.8.2+
    **进容器内执行以下命令**
 
    ```bash
+   docker exec -it qinglong bash
    git clone https://ghproxy.com/https://github.com/achooyu/Waikiki_ninja.git /ql/ninja
    cd /ql/ninja/backend
    pnpm install
