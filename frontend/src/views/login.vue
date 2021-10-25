@@ -50,6 +50,7 @@
           <b>wskey有效期长达一年，请联系管理员确认使用（删不掉，慎用）</b>
           <p>用户须手动提取pin和wskey，拼接格式如：pt_pin=xxxxxx;wskey=xxxxxxxxxx;</p>
           <p class="card-subtitle">——IOS用户手机抓包APP&emsp;<a style="" href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" id="downiOSApp">点击跳转安装</a> </p>
+          <p class="card-subtitle">——Android用户手机抓包APP：HttpCanary</p>
           <p class="card-subtitle">——在api.m.jd.com域名下找POST请求大概率能找到wskey。</p>
           <p class="card-subtitle">wskey在录入后立马上线，系统会在指定时间检查wskey，有效则自动转换出cookie登录</p>
           <p class="card-subtitle">cookie失效后，也会在系统设定的指定时间内自动转换出新的cookie，实现一次录入长期有效</p>
