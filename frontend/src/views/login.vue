@@ -73,8 +73,8 @@
         </div>
         <div class="card-body text-base leading-6">
           <p>PC用户建议使用开源工具<a style="" href="https://github.com/Waikkii/JD_Get_Cookie" target="_blank" id="waikiki">JD_Get_Cookie</a>获取cookie并在下方填写。</p>
-          <p>手机用户可以使用Alook浏览器登录<a style="" href="https://m.jd.com/" target="_blank" id="jd">JD官网</a>，并在菜单-工具箱-开发者工具-Cookies中获取（Android和iPhone通用），有效期约1个月。</p>
-          <p>另外也可以使用抓包工具（iPhone：Stream，Android：HttpCanary）抓取京东app的ck，要注意pt_key和pt_pin字段是以app_open开头的，有效期约1天。</p>
+          <p>手机用户可以使用Alook浏览器登录<a style="" href="https://m.jd.com/" target="_blank" id="jd">JD官网</a>，并在菜单-工具箱-开发者工具-Cookies中获取（Android和iPhone通用）。</p>
+          <p>另外也可以使用抓包工具（iPhone：Stream，Android：HttpCanary）抓取京东app的ck，要注意pt_key和pt_pin字段是以app_open开头的。</p>
           <p>cookie直接填入输入框即可，Ninja会自动正则提取pt_key和pt_pin。若不行，请按此格式拼接提交：pt_key=xxxxxxxxxx;pt_pin=xxxxxx;</p>
         </div>
         <span class="card-subtitle"> 请在下方输入您的 cookie 登录。 </span>
